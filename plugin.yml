@@ -1,0 +1,17 @@
+name: CustomKit
+version: 2.0.0
+main: RTG\Xeon\CustomKit
+api: 
+- 3.0.0
+author: 
+- InspectorGadget
+- MyNET
+
+commands:
+  kit:
+    usage: "kit"
+    description: "Kit Command!"
+    permission: kit.command
+permissions:
+  kit.command:
+    default: op
