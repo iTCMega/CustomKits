@@ -1,7 +1,10 @@
 # Config for CustomKit <Xeon>
 Version: 1.0.0
+
 # CustomKit would work normally if you disable Money which means your players dont need to buy a kit!
 Money: true
+
+## Kits Price
 # Price for Infinity Kit
 Infinity: 1500
 # Price for Legendary Kit
