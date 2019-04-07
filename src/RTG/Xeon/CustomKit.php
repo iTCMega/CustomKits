@@ -50,7 +50,7 @@ class CustomKit extends PluginBase implements Listener {
 		
 	}
 	
-	public function onCommand(CommandSender $sender, Command $cmd, $label, array $param) {
+	public function onCommand(CommandSender $sender, Command $cmd, $label, array $param): bool {
 		switch(strtolower($cmd->getName())) {
 			
 			case "kit":
